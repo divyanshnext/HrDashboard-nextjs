@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HR Dashboard
 
-## Getting Started
+A modern HR dashboard built with [Next.js](https://nextjs.org), featuring employee management, analytics, authentication, and more.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Setup Instructions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Clone the repository:**
+   ```bash
+   git clone <repo-url>
+   cd hr-dashboard
+   ```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-## Learn More
+4. **Open your browser:**
+   - Visit [http://localhost:3000](http://localhost:3000)
 
-To learn more about Next.js, take a look at the following resources:
+5. **Login credentials (demo):**
+   - Email: `admin@example.com`
+   - Password: `password123`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ✨ Features Implemented
 
-## Deploy on Vercel
+- **User Authentication** (NextAuth.js, credentials provider)
+- **Employee Directory** with search, filter by department & rating
+- **Create New Employee** (with modal form, persists to local JSON)
+- **Employee Details Page** (bio, department, rating, performance history)
+- **Bookmark Employees** (localStorage, persistent bookmarks)
+- **Analytics Dashboard** (charts for department ratings & bookmark trends)
+- **Dark Mode Toggle**
+- **Sidebar Navigation**
+- **Responsive UI** (Tailwind CSS)
+- **Promote Action** (UI only)
+- **Feedback Form** (mock, per employee)
+- **Persistent Data** (users stored in `users.json`)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🖼️ Screenshots
+
+### Dashboard
+
+![Dashboard Screenshot](./screenshots/dashboard.png)
+
+### Employee Details
+
+![Employee Details Screenshot](./screenshots/employee-details.png)
+
+### Analytics
+
+![Analytics Screenshot](./screenshots/analytics.png)
+
+---
+
+## 📁 Project Structure
+
+- `app/` - Next.js app directory (pages, API routes)
+- `components/` - Reusable UI components
+- `context/` - React context for bookmarks
+- `hooks/` - Custom React hooks
+- `public/` - Static assets (SVGs, images)
+- `users.json` - Local user data (created at runtime)
+
+---
+
+## 📚 Learn More
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [NextAuth.js Documentation](https://next-auth.js.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+## 🚀 Deploy
+
+Deploy easily on [Vercel](https://vercel.com/) or your preferred platform.
+
+---
+
+## 🔄 How to Push New Changes to GitHub
+
+1. **Check status of your changes:**
+   ```bash
+   git status
+   ```
+
+2. **Add changed files:**
+   ```bash
+   git add .
+   ```
+
+3. **Commit your changes:**
+   ```bash
+   git commit -m "Describe your changes"
+   ```
+
+4. **Push to GitHub:**
+   ```bash
+   git push
+   ```

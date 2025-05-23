@@ -1,0 +1,422 @@
+[
+  {
+    "id": 20,
+    "firstName": "Jackson",
+    "lastName": "Evans",
+    "maidenName": "",
+    "age": 34,
+    "gender": "male",
+    "email": "jackson.evans@x.dummyjson.com",
+    "phone": "+44 468-628-6686",
+    "username": "jacksone",
+    "password": "jacksonepass",
+    "birthDate": "1990-11-30",
+    "image": "https://dummyjson.com/icon/jacksone/128",
+    "bloodGroup": "O-",
+    "height": 162.57,
+    "weight": 74.37,
+    "eyeColor": "Green",
+    "hair": {
+      "color": "Red",
+      "type": "Straight"
+    },
+    "ip": "221.127.144.198",
+    "address": {
+      "address": "1873 Main Street",
+      "city": "New York",
+      "state": "Arkansas",
+      "stateCode": "AR",
+      "postalCode": "26600",
+      "coordinates": {
+        "lat": 34.722451,
+        "lng": 63.448927
+      },
+      "country": "United States"
+    },
+    "macAddress": "81:14:1:97:88:85",
+    "university": "Ohio State University",
+    "bank": {
+      "cardExpire": "04/26",
+      "cardNumber": "2109192842527801",
+      "cardType": "BC Card",
+      "currency": "EUR",
+      "iban": "TX26FO9B7YR2VHYDSJBE32AX"
+    },
+    "company": {
+      "department": "Legal",
+      "name": "Kuhlman LLC",
+      "title": "Web Developer",
+      "address": {
+        "address": "1706 First Street",
+        "city": "Chicago",
+        "state": "Hawaii",
+        "stateCode": "HI",
+        "postalCode": "34725",
+        "coordinates": {
+          "lat": -80.416937,
+          "lng": -83.224516
+        },
+        "country": "United States"
+      }
+    },
+    "ein": "843-260",
+    "ssn": "248-787-886",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36",
+    "crypto": {
+      "coin": "Bitcoin",
+      "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+      "network": "Ethereum (ERC20)"
+    },
+    "role": "user"
+  },
+  {
+    "id": 19,
+    "firstName": "Abigail",
+    "lastName": "Rivera",
+    "maidenName": "",
+    "age": 28,
+    "gender": "female",
+    "email": "abigail.rivera@x.dummyjson.com",
+    "phone": "+91 228-363-7806",
+    "username": "abigailr",
+    "password": "abigailrpass",
+    "birthDate": "1996-10-11",
+    "image": "https://dummyjson.com/icon/abigailr/128",
+    "bloodGroup": "B+",
+    "height": 186.39,
+    "weight": 74.61,
+    "eyeColor": "Violet",
+    "hair": {
+      "color": "Blue",
+      "type": "Kinky"
+    },
+    "ip": "19.183.240.94",
+    "address": {
+      "address": "996 Oak Street",
+      "city": "Chicago",
+      "state": "New Mexico",
+      "stateCode": "NM",
+      "postalCode": "11407",
+      "coordinates": {
+        "lat": 44.321308,
+        "lng": -3.723903
+      },
+      "country": "United States"
+    },
+    "macAddress": "1d:a6:58:2a:e5:e4",
+    "university": "California Institute of Technology (Caltech)",
+    "bank": {
+      "cardExpire": "02/28",
+      "cardNumber": "4832361886407551",
+      "cardType": "RuPay",
+      "currency": "BRL",
+      "iban": "O02LHDNNFCVSM6D4H81DIQHE"
+    },
+    "company": {
+      "department": "Human Resources",
+      "name": "Prohaska - Thiel",
+      "title": "Business Analyst",
+      "address": {
+        "address": "1402 Adams Street",
+        "city": "Austin",
+        "state": "Wisconsin",
+        "stateCode": "WI",
+        "postalCode": "51456",
+        "coordinates": {
+          "lat": 25.672938,
+          "lng": -76.54967
+        },
+        "country": "United States"
+      }
+    },
+    "ein": "173-637",
+    "ssn": "655-823-929",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edge/97.0.1072.76 Safari/537.36",
+    "crypto": {
+      "coin": "Bitcoin",
+      "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+      "network": "Ethereum (ERC20)"
+    },
+    "role": "user"
+  },
+  {
+    "id": 18,
+    "firstName": "Logan",
+    "lastName": "Torres",
+    "maidenName": "",
+    "age": 31,
+    "gender": "male",
+    "email": "logan.torres@x.dummyjson.com",
+    "phone": "+81 507-434-8733",
+    "username": "logant",
+    "password": "logantpass",
+    "birthDate": "1993-10-26",
+    "image": "https://dummyjson.com/icon/logant/128",
+    "bloodGroup": "A+",
+    "height": 190.04,
+    "weight": 72.43,
+    "eyeColor": "Green",
+    "hair": {
+      "color": "Green",
+      "type": "Curly"
+    },
+    "ip": "155.98.15.162",
+    "address": {
+      "address": "907 Seventh Street",
+      "city": "Columbus",
+      "state": "Arkansas",
+      "stateCode": "AR",
+      "postalCode": "78805",
+      "coordinates": {
+        "lat": -64.846516,
+        "lng": 174.775744
+      },
+      "country": "United States"
+    },
+    "macAddress": "40:d:5c:1:7d:bf",
+    "university": "University of Illinois--Urbana-Champaign",
+    "bank": {
+      "cardExpire": "05/26",
+      "cardNumber": "7884268130452098",
+      "cardType": "UnionPay",
+      "currency": "NZD",
+      "iban": "HZM7V9PYHPZBN72IDFPXGN8Q"
+    },
+    "company": {
+      "department": "Training",
+      "name": "Jast - Nader",
+      "title": "Data Analyst",
+      "address": {
+        "address": "947 Main Street",
+        "city": "Denver",
+        "state": "Minnesota",
+        "stateCode": "MN",
+        "postalCode": "71896",
+        "coordinates": {
+          "lat": -24.654063,
+          "lng": -147.255268
+        },
+        "country": "United States"
+      }
+    },
+    "ein": "576-218",
+    "ssn": "806-639-934",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36",
+    "crypto": {
+      "coin": "Bitcoin",
+      "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+      "network": "Ethereum (ERC20)"
+    },
+    "role": "user"
+  },
+  {
+    "id": 17,
+    "firstName": "Evelyn",
+    "lastName": "Sanchez",
+    "maidenName": "",
+    "age": 37,
+    "gender": "female",
+    "email": "evelyn.sanchez@x.dummyjson.com",
+    "phone": "+1 623-880-6871",
+    "username": "evelyns",
+    "password": "evelynspass",
+    "birthDate": "1987-10-13",
+    "image": "https://dummyjson.com/icon/evelyns/128",
+    "bloodGroup": "B+",
+    "height": 184.08,
+    "weight": 83.15,
+    "eyeColor": "Violet",
+    "hair": {
+      "color": "Blue",
+      "type": "Curly"
+    },
+    "ip": "87.114.135.146",
+    "address": {
+      "address": "1170 Lincoln Street",
+      "city": "San Diego",
+      "state": "Wyoming",
+      "stateCode": "WY",
+      "postalCode": "43423",
+      "coordinates": {
+        "lat": -83.31484,
+        "lng": 11.768071
+      },
+      "country": "United States"
+    },
+    "macAddress": "f8:e5:bd:43:bc:d8",
+    "university": "Washington University in St. Louis",
+    "bank": {
+      "cardExpire": "04/29",
+      "cardNumber": "4557521697420096",
+      "cardType": "UnionPay",
+      "currency": "SEK",
+      "iban": "KN8XAPR2J5UB8AKDI1EVJ56R"
+    },
+    "company": {
+      "department": "Support",
+      "name": "Predovic - Johns",
+      "title": "Chief Financial Officer",
+      "address": {
+        "address": "1802 Ninth Street",
+        "city": "San Diego",
+        "state": "Minnesota",
+        "stateCode": "MN",
+        "postalCode": "89416",
+        "coordinates": {
+          "lat": 29.034592,
+          "lng": -78.004598
+        },
+        "country": "United States"
+      }
+    },
+    "ein": "604-817",
+    "ssn": "689-332-644",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36",
+    "crypto": {
+      "coin": "Bitcoin",
+      "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+      "network": "Ethereum (ERC20)"
+    },
+    "role": "user"
+  },
+  {
+    "id": 14,
+    "firstName": "Charlotte",
+    "lastName": "Lopez",
+    "maidenName": "Martinez",
+    "age": 36,
+    "gender": "female",
+    "email": "charlotte.lopez@x.dummyjson.com",
+    "phone": "+44 373-953-5028",
+    "username": "charlottem",
+    "password": "charlottempass",
+    "birthDate": "1988-6-8",
+    "image": "https://dummyjson.com/icon/charlottem/128",
+    "bloodGroup": "AB-",
+    "height": 178.92,
+    "weight": 82.46,
+    "eyeColor": "Brown",
+    "hair": {
+      "color": "Gray",
+      "type": "Kinky"
+    },
+    "ip": "119.103.95.60",
+    "address": {
+      "address": "208 Second Street",
+      "city": "Columbus",
+      "state": "Ohio",
+      "stateCode": "OH",
+      "postalCode": "42044",
+      "coordinates": {
+        "lat": -44.443762,
+        "lng": -151.420561
+      },
+      "country": "United States"
+    },
+    "macAddress": "f6:ff:37:aa:6c:f1",
+    "university": "Northeastern University",
+    "bank": {
+      "cardExpire": "02/27",
+      "cardNumber": "5675368650551956",
+      "cardType": "Maestro",
+      "currency": "CNY",
+      "iban": "FKK6U634LGI3E7N517DLVVTL"
+    },
+    "company": {
+      "department": "Accounting",
+      "name": "Zulauf and Sons",
+      "title": "Chief Executive Officer",
+      "address": {
+        "address": "569 Jefferson Street",
+        "city": "Los Angeles",
+        "state": "Montana",
+        "stateCode": "MT",
+        "postalCode": "17779",
+        "coordinates": {
+          "lat": -18.371256,
+          "lng": 22.566258
+        },
+        "country": "United States"
+      }
+    },
+    "ein": "364-782",
+    "ssn": "255-491-479",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36",
+    "crypto": {
+      "coin": "Bitcoin",
+      "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+      "network": "Ethereum (ERC20)"
+    },
+    "role": "moderator"
+  },
+  {
+    "id": 13,
+    "firstName": "Noah",
+    "lastName": "Hernandez",
+    "maidenName": "",
+    "age": 40,
+    "gender": "male",
+    "email": "noah.hernandez@x.dummyjson.com",
+    "phone": "+49 393-605-6968",
+    "username": "noahh",
+    "password": "noahhpass",
+    "birthDate": "1984-6-5",
+    "image": "https://dummyjson.com/icon/noahh/128",
+    "bloodGroup": "AB+",
+    "height": 188.62,
+    "weight": 69.49,
+    "eyeColor": "Brown",
+    "hair": {
+      "color": "Red",
+      "type": "Curly"
+    },
+    "ip": "169.154.126.57",
+    "address": {
+      "address": "1413 Maple Street",
+      "city": "New York",
+      "state": "North Dakota",
+      "stateCode": "ND",
+      "postalCode": "73696",
+      "coordinates": {
+        "lat": -25.0377,
+        "lng": -151.70469
+      },
+      "country": "United States"
+    },
+    "macAddress": "d4:fe:ae:8f:eb:a3",
+    "university": "New York University (NYU)",
+    "bank": {
+      "cardExpire": "05/26",
+      "cardNumber": "1681772579326385",
+      "cardType": "Discover",
+      "currency": "SEK",
+      "iban": "G4UIZKIQVPJM9D31XQVR1E9Z"
+    },
+    "company": {
+      "department": "Engineering",
+      "name": "Botsford, Marquardt and Roberts",
+      "title": "Database Administrator",
+      "address": {
+        "address": "62 Third Street",
+        "city": "Seattle",
+        "state": "Oregon",
+        "stateCode": "OR",
+        "postalCode": "83474",
+        "coordinates": {
+          "lat": 19.490447,
+          "lng": -13.173207
+        },
+        "country": "United States"
+      }
+    },
+    "ein": "877-628",
+    "ssn": "660-847-389",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36",
+    "crypto": {
+      "coin": "Bitcoin",
+      "wallet": "0xb9fc2fe63b2a6c003f1c324c3bfa53259162181a",
+      "network": "Ethereum (ERC20)"
+    },
+    "role": "moderator"
+  }
+]
