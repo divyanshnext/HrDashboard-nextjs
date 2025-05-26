@@ -8,10 +8,11 @@ export function useSearch(users) {
   const filteredUsers = useMemo(() => {
     return users.filter((user) => {
       const matchesSearch =
-        user.firstName.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        user.lastName.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        user.email.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        user.department.toLowerCase().includes(searchTerm.toLowerCase());
+        searchTerm === "" ||
+        user.firstName?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        user.lastName?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        user.email?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        user.department?.toLowerCase().includes(searchTerm.toLowerCase());
 
       const matchesDept =
         selectedDepartments.length === 0 || selectedDepartments.includes(user.department);
