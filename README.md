@@ -56,17 +56,20 @@ A modern HR dashboard built with [Next.js](https://nextjs.org), featuring employ
 
 ### Dashboard
 
-![Dashboard Screenshot](![image](https://github.com/user-attachments/assets/02302a2c-139b-4b92-b1ce-7dbe55293f9b)
+![Dashboard Screenshot] ![Screenshot 2025-05-24 040119](https://github.com/user-attachments/assets/3e78a5ae-70bd-4144-aec3-17901a61f851)
+
 )
 
 ### Employee Details
 
-![Employee Details Screenshot](![image](https://github.com/user-attachments/assets/9564f64d-48ac-41f5-93f4-be39421b213d)
+![Employee Details Screenshot]![Screenshot 2025-05-24 040153](https://github.com/user-attachments/assets/d8589c2c-2916-45f3-ab69-709440221aff)
+
 )
 
 ### Analytics
 
-![Analytics Screenshot](![image](https://github.com/user-attachments/assets/34cdd08d-f196-4f81-b486-01e12bf196e0)
+![Analytics Screenshot]![Screenshot 2025-05-24 040211](https://github.com/user-attachments/assets/25e7707f-e2eb-4da4-876b-e9c4ca816ad4)
+
 )
 
 ---
