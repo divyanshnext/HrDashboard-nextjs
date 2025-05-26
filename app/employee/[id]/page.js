@@ -27,7 +27,7 @@ export default function EmployeePage({ params }) {
           }
         }
         // Fallback to dummyjson
-        res = await fetch(`https://dummyjson.com/users/${id}`);
+        res = await fetch(`https://dummyjson.com/users/${id}`); // Ensure correct fallback URL
         if (!res.ok) throw new Error("Failed to fetch user");
         const data = await res.json();
 

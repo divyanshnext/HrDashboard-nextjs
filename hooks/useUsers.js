@@ -20,7 +20,7 @@ export default function useUsers(limit = 20) {
           }
         }
         // Fallback to dummyjson if local API is empty
-        const dummyRes = await fetch(`https://dummyjson.com/users?limit=${limit}`);
+        const dummyRes = await fetch(`https://dummyjson.com/users?limit=20`); // Updated limit to 20 for dashboard
         const dummyData = await dummyRes.json();
         if (dummyData && Array.isArray(dummyData.users)) {
           setUsers(dummyData.users);
