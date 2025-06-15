@@ -39,7 +39,6 @@ A modern HR dashboard built with [Next.js](https://nextjs.org), featuring employ
 
 - **User Authentication** (NextAuth.js, credentials provider)
 - **Employee Directory** with search, filter by department & rating
-- **Create New Employee** (with modal form, persists to local JSON)
 - **Employee Details Page** (bio, department, rating, performance history)
 - **Bookmark Employees** (localStorage, persistent bookmarks)
 - **Analytics Dashboard** (charts for department ratings & bookmark trends)
@@ -54,23 +53,25 @@ A modern HR dashboard built with [Next.js](https://nextjs.org), featuring employ
 
 ## 🖼️ Screenshots
 
-### Dashboard
+### landing page
+![Screenshot 2025-06-15 141026](https://github.com/user-attachments/assets/82460273-9dd8-49a6-afc7-6aa2948dfcea)
 
-![Dashboard Screenshot] ![Screenshot 2025-05-24 040119](https://github.com/user-attachments/assets/3e78a5ae-70bd-4144-aec3-17901a61f851)
 
-)
+### Login page
+![Screenshot 2025-06-15 141248](https://github.com/user-attachments/assets/370b940e-06df-4b03-a99b-f07361f6115d)
 
-### Employee Details
 
-![Employee Details Screenshot]![Screenshot 2025-05-24 040153](https://github.com/user-attachments/assets/d8589c2c-2916-45f3-ab69-709440221aff)
+### Dashboard after admin login
+![Screenshot 2025-06-15 141406](https://github.com/user-attachments/assets/269c6fef-c706-42ba-80e0-8ff614960868)
 
-)
+### Analytics page
+![Screenshot 2025-06-15 141451](https://github.com/user-attachments/assets/22498e72-8448-4f5a-bf34-b1291b5fb0c4)
 
-### Analytics
+### Bookmarks page
+![Screenshot 2025-06-15 141531](https://github.com/user-attachments/assets/c0ee0380-86b0-43ce-9f9d-26a6c11298eb)
 
-![Analytics Screenshot]![Screenshot 2025-05-24 040211](https://github.com/user-attachments/assets/25e7707f-e2eb-4da4-876b-e9c4ca816ad4)
-
-)
+### Employee detals view page
+![Screenshot 2025-06-15 141610](https://github.com/user-attachments/assets/b8cbe84a-1997-4a9d-b2f0-ed82006a9268)
 
 ---
 
