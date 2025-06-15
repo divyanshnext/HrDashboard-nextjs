@@ -70,7 +70,7 @@ A modern HR dashboard built with [Next.js](https://nextjs.org), featuring employ
 ### Bookmarks page
 ![Screenshot 2025-06-15 141531](https://github.com/user-attachments/assets/c0ee0380-86b0-43ce-9f9d-26a6c11298eb)
 
-### Employee detals view page
+### Employee details view page
 ![Screenshot 2025-06-15 141610](https://github.com/user-attachments/assets/b8cbe84a-1997-4a9d-b2f0-ed82006a9268)
 
 ---
