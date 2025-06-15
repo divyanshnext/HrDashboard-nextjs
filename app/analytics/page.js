@@ -1,12 +1,23 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useSession } from "next-auth/react";
+import { useRouter } from "next/navigation";
 import { Bar, Line } from "react-chartjs-2";
 import { Chart, registerables } from "chart.js";
 
 Chart.register(...registerables);
 
 export default function AnalyticsPage() {
+  const { data: session, status } = useSession();
+  const router = useRouter();
+
+  useEffect(() => {
+    if (status === "unauthenticated") {
+      router.push("/");
+    }
+  }, [status, router]);
+
   const departments = ["Engineering", "Marketing", "Sales", "HR", "Finance"];
 
   // Mock department average ratings 1 to 5
@@ -51,6 +62,18 @@ export default function AnalyticsPage() {
       },
     ],
   };
+
+  if (status === "loading") {
+    return (
+      <div className="flex flex-col items-center justify-center min-h-screen">
+        <h1 className="mb-4 text-2xl font-bold">Loading...</h1>
+      </div>
+    );
+  }
+
+  if (!session) {
+    return null; // Redirect handled in useEffect
+  }
 
   return (
     <div className="max-w-4xl mx-auto p-6">

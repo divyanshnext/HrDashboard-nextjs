@@ -1,55 +1,50 @@
 "use client";
+
+import React from "react";
 import Link from "next/link";
+import { useSession } from "next-auth/react";
 import { usePathname } from "next/navigation";
-import { useSession, signOut } from "next-auth/react";
+import { Home, BarChart, Bookmark } from "lucide-react";
 
 const navItems = [
-  { label: "Dashboard", path: "/" },
-  { label: "Analytics", path: "/analytics" },
-  { label: "Bookmarks", path: "/bookmarks" },
+  { href: "/dashboard", label: "Dashboard", icon: Home },
+  { href: "/analytics", label: "Analytics", icon: BarChart },
+  { href: "/bookmarks", label: "Bookmarks", icon: Bookmark },
 ];
 
 export default function Sidebar() {
-  const pathname = usePathname();
   const { data: session } = useSession();
+  const pathname = usePathname();
+
+  if (!session) return null;
 
   return (
-    <aside className="w-64 h-screen bg-gray-900 text-white flex flex-col shadow-md sticky top-0">
-      <div className="p-6 border-b border-gray-700">
-        <h1 className="text-2xl font-bold text-yellow-400">HR Dashboard</h1>
-        <p className="text-sm text-gray-400">Manage with ease</p>
-      </div>
+    <aside className="hidden md:flex flex-col w-64 h-screen bg-white dark:bg-[#0f172a] border-r border-gray-200 dark:border-gray-700 p-6 shadow-lg">
+      <h2 className="text-2xl font-bold mb-8 text-gray-900 dark:text-white tracking-tight">
+        HR Dashboard
+      </h2>
 
-      <nav className="flex flex-col gap-2 p-4 flex-1">
-        {navItems.map((item) => (
-          <Link
-            key={item.path}
-            href={item.path}
-            className={`px-4 py-2 rounded-md transition text-sm font-medium ${
-              pathname === item.path
-                ? "bg-yellow-500 text-black"
-                : "hover:bg-gray-800 text-gray-300"
-            }`}
-          >
-            {item.label}
-          </Link>
-        ))}
+      <nav className="flex flex-col gap-3">
+        {navItems.map(({ href, label, icon: Icon }) => {
+          const isActive = pathname === href;
+
+          return (
+            <Link
+              key={href}
+              href={href}
+              className={`flex items-center gap-3 px-4 py-2 rounded-lg transition-all duration-200 font-medium
+                ${
+                  isActive
+                    ? "bg-blue-600 text-white shadow"
+                    : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
+                }`}
+            >
+              <Icon size={20} />
+              <span>{label}</span>
+            </Link>
+          );
+        })}
       </nav>
-
-      {session ? (
-        <div className="p-4 border-t border-gray-700">
-          <button
-            onClick={() => signOut()}
-            className="w-full bg-red-600 hover:bg-red-700 text-white py-2 rounded text-sm"
-          >
-            Logout
-          </button>
-        </div>
-      ) : null}
-
-      <div className="p-4 text-xs text-gray-500 border-t border-gray-700">
-        © 2025 HR Tools
-      </div>
     </aside>
   );
 }

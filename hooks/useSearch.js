@@ -6,21 +6,37 @@ export function useSearch(users) {
   const [selectedRatings, setSelectedRatings] = useState([]);
 
   const filteredUsers = useMemo(() => {
+    // Ensure selectedRatings are numbers for comparison
+    const selectedRatingsNum = selectedRatings.map(Number);
     return users.filter((user) => {
-      const matchesSearch =
-        searchTerm === "" ||
-        user.firstName?.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        user.lastName?.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        user.email?.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        user.department?.toLowerCase().includes(searchTerm.toLowerCase());
+      const term = searchTerm.trim().toLowerCase();
+      const userFirst = user.firstName?.toLowerCase() || "";
+      const userLast = user.lastName?.toLowerCase() || "";
+      const userEmail = user.email?.toLowerCase() || "";
+      const userDept = user.department?.toLowerCase() || "";
+      const userRating =
+        typeof user.rating === "number"
+          ? Math.round(user.rating)
+          : user.rating && !isNaN(Number(user.rating))
+          ? Math.round(Number(user.rating))
+          : null;
 
-      const matchesDept =
-        selectedDepartments.length === 0 || selectedDepartments.includes(user.department);
+      const matchesSearch =
+        !term ||
+        userFirst.includes(term) ||
+        userLast.includes(term) ||
+        userEmail.includes(term) ||
+        userDept.includes(term);
+
+      const matchesDepartment =
+        selectedDepartments.length === 0 ||
+        selectedDepartments.map((d) => d.toLowerCase()).includes(userDept);
 
       const matchesRating =
-        selectedRatings.length === 0 || selectedRatings.includes(Math.round(user.rating));
+        selectedRatingsNum.length === 0 ||
+        (userRating !== null && selectedRatingsNum.includes(userRating));
 
-      return matchesSearch && matchesDept && matchesRating;
+      return matchesSearch && matchesDepartment && matchesRating;
     });
   }, [users, searchTerm, selectedDepartments, selectedRatings]);
 

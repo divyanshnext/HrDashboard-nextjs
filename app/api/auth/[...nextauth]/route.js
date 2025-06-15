@@ -25,6 +25,12 @@ export const authOptions = {
     strategy: "jwt",
   },
   secret: process.env.NEXTAUTH_SECRET,
+  pages: {
+    signIn: '/admin-login',
+    error: '/admin-login',
+    verifyRequest: '/admin-login',
+    newUser: '/dashboard', // Redirect after successful login
+  },
 };
 
 const handler = NextAuth(authOptions);
